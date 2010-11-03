@@ -1,0 +1,52 @@
+<tw>
+	<trip dep="1288808002" arr="1288815002">
+		<tag k="orig" v="Amsterdam" />
+        <tag k="dest" v="Berlin" />
+		<trips>
+			<trip dep="1288808002" arr="1288809002">
+				<tag k="orig" v="Amsterdam" />
+       			<tag k="dest" v="Hamburg" />
+				<tag k="mode" v="train" />
+				<tag k="ref" v="ICE47" />
+			</trip>
+			<trip dep="1288809002" arr="1288811002">
+				<tag k="orig" v="Hamburg Plf 3" />
+       			<tag k="dest" v="Tegel (U)" />
+				<tag k="mode" v="bus" />
+				<tag k="foo" v="bar" />
+				<trips>
+					<trip dep="1288808002" arr="1288810002">
+						<tag k="orig" v="Hamburg" />
+			   			<tag k="dest" v="stop_1" />
+					</trip>
+					<trip dep="1288810002" arr="1288810702">
+						<tag k="orig" v="stop_1" />
+			   			<tag k="dest" v="stop_2" />
+					</trip>
+					<trip dep="1288810702" arr="1288811002">
+						<tag k="orig" v="stop_2" />
+			   			<tag k="dest" v="Tegel" />
+					</trip>
+				</trips>
+			</trip>
+			<trip dep="1288811008" arr="1288815002">
+				<tag k="orig" v="Tegel (U)" />
+       			<tag k="dest" v="Berlin" />
+				<tag k="mode" v="subway" />
+				<tag k="line" v="U5" />
+				<trips>
+					<trip dep="1288808002" arr="1288812002">
+			   			<tag k="dest" v="stop_1" />
+					</trip>
+					<trip dep="1288812002" arr="1288814002">
+			   			<tag k="dest" v="stop_2" />
+					</trip>
+					<trip dep="1288814002" arr="1288815002">
+			   			<tag k="dest" v="Berlin" />
+					</trip>
+				</trips>
+			</trip>
+		<trips>
+	</trip>
+</tw>
+
