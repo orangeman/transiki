@@ -1,17 +1,17 @@
 <tw>
 	<trip dep="1288808002" arr="1288815002">
 		<tag k="orig" v="Amsterdam" />
-        <tag k="dest" v="Berlin" />
+		<tag k="dest" v="Berlin" />
 		<trips>
 			<trip dep="1288808002" arr="1288809002">
 				<tag k="orig" v="Amsterdam" />
-       			<tag k="dest" v="Hamburg" />
+				<tag k="dest" v="Hamburg" />
 				<tag k="mode" v="train" />
 				<tag k="ref" v="ICE47" />
 			</trip>
 			<trip dep="1288809002" arr="1288811002">
 				<tag k="orig" v="Hamburg Plf 3" />
-       			<tag k="dest" v="Tegel (U)" />
+				<tag k="dest" v="Tegel (U)" />
 				<tag k="mode" v="bus" />
 				<tag k="foo" v="bar" />
 				<trips>
